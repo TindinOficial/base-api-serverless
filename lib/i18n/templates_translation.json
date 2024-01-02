@@ -1,0 +1,244 @@
+{
+  "TEMPLATE": {
+    "NOTIFICATIONS": {
+      "GREETTINGS": {
+        "HELLO_USER": {
+          "ptBr": "Olá {userName}!",
+          "en": "Hello {userName}!",
+          "es": "Hola {userName}!"
+        }
+      },
+
+      "METAVERSE_IMG": {
+        "ptBr": "<div><img src=\"https://www.tindin.com.br/assets/img/metaverso_tindin.png\" alt=\"metaverso_tindin.png\" width=\"550\" height=\"350\"  data-image-whitelisted=\"\" class=\"CToWUd\"></div><br><br>",
+        "en": "<div><img src=\"https://www.tindin.com.br/assets/img/metaverso_tindin.png\" alt=\"metaverse_tindin.png\" width=\"550\" height=\"350\"  data-image-whitelisted=\"\" class=\"CToWUd\"></div><br><br>",
+        "es": "<div><img src=\"https://www.tindin.com.br/assets/img/metaverso_tindin.png\" alt=\"metaverse_tindin.png\" width=\"550\" height=\"350\"  data-image-whitelisted=\"\" class=\"CToWUd\"></div><br><br>"
+      },
+      "PASSWORD_UPDATE_SUCCESS": {
+        "EMAIL_TITLE": {
+          "ptBr": "Sua senha foi alterada",
+          "en": "Your password changed",
+          "es": "Tu contraseña ha cambiado"
+        },
+        "MESSAGE_TITLE": {
+          "ptBr": "Sua senha foi alterada pela plataforma Metaverso Educacional da Tindin!",
+          "en": "Your password has been changed by Tindin's Metaverse Educational platform!",
+          "es": "¡Tu contraseña ha sido cambiada por la plataforma Educativa Metaverso de Tindin!"
+        },
+        "EMAIL_FOOTER": {
+          "EMAIL_MESSAGE_FOOTER": {
+            "ptBr": "Ficou com dúvidas? Fale com nossa equipe de",
+            "en": "Were you in doubt? Talk to our",
+            "es": "¿Tienes dudas? Habla con nuestro equipo de"
+          },
+          "TEXT_HREF_EMAIL_BODY_FOOTER": {
+            "ptBr": "Sucesso do cliente",
+            "en": "Èxito del cliente",
+            "es": "Customer success team"
+          }
+        }
+      },
+      "NEW_PLAYER": {
+        "EMAIL_TITLE": {
+          "ptBr": "Você foi convidado para entrar no Metaverso da Tindin",
+          "en": "You've been invited to join Tindin's Metaverse",
+          "es": "Has sido invitado a unirte al Metaverso de Tindin"
+        },
+        "MESSAGE_TITLE": {
+          "ptBr": "Você está a um passo para entrar no Metaverso Educacional da Tindin",
+          "en": "You are one step away from entering the Tindin Educational Metaverse",
+          "es": "Estás a un paso de entrar en el Metaverso Educativo de Tindín"
+        },
+        "METAVERSE_BODY": {
+          "EMAIL_PURPOSE": {
+            "ptBr": "A organização {organizationName} {teamsInvited}, chegou a hora de iniciar sua jornada com a plataforma Metaverso Educacional da Tindin. Para ativar sua conta clique no link abaixo, ou acesse o endereço <br> {urlAva}, e entre com os dados informados neste email abaixo:",
+            "en": "The organization {organizationName} {teamsInvited}, it's time to start your journey with Tindin's Metaverse Educational platform. To activate your account click on the link below, or go to the address <br> {urlAva}, and enter the data provided in this email below:",
+            "es": "La organización {organizationName} {teamsInvited}, es hora de comenzar tu viaje con la plataforma educativa Metaverse de Tindin. Para activar su cuenta, haga clic en el enlace abajo ou vaya al enlace <br> {urlAva}, e ingrese los datos proporcionados abajo en este email:"
+          },
+          "ONE_TEAM_INVITE": {
+            "ptBr": "convidou você para a turma {teamName}",
+            "en": "invited you to the team {teasName}",
+            "es": "te invitó al equipo  {teamName}"
+          },
+          "MORE_THAN_ONE_TEAM_INVITE": {
+            "ptBr": "convidou você para as turmas {teamsNames}",
+            "en": "invited you to the teams {teamsNames}",
+            "es": "te invitó a equipos {teamsNames}"
+          },
+          "NO_TEAM": {
+            "ptBr": "convidou você",
+            "en": "invited you",
+            "es": "te invitó"
+          },
+          "BUTTON_TEXT": {
+            "ptBr": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Acessar Metaverso Educacional da Tindin</a>",
+            "en": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Access Tindin Educational Metaverse</a>",
+            "es": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Entra en el metaverso educativo de Tindín</a>"
+          },
+          "USER_ACCOUNT_LOGIN": {
+            "BY_EMAIL": {
+              "ptBr": "<h2>Email de login é: {userLogin}</h2> <h2>Senha de login: {temporaryPassword}</h2>",
+              "en": "<h2>Login Email is: {userLogin}</h2> <h2>Login password: {temporaryPassword}</h2>",
+              "es": "<h2>Email de login es: {userLogin}</h2> <h2>Contraseña de login: {temporaryPassword}</h2>"
+            },
+            "BY_CODE": {
+              "ptBr": "<h2>Usuário de login: {userLogin}</h2> <h2>Senha de login: {temporaryPassword}</h2>",
+              "en": "<h2>Login user: {userLogin}</h2> <h2>Login password: {temporaryPassword}</h2>",
+              "es": "<h2>Usuário de login: {userLogin}</h2> <h2>Contraseña de login: {temporaryPassword}</h2>"
+            }
+          },
+          "METAVERSE_OBSERVATION_MESSAGE": {
+            "ptBr": "Após você realizar seu primeiro login será solicitado para você criar uma nova senha.",
+            "en": "After you login you will be prompted to create a new password.",
+            "es": "Después de iniciar sesión, se le pedirá que cree una nueva contraseña."
+          }
+        },
+        "EMAIL_FOOTER": {
+          "EMAIL_MESSAGE_FOOTER": {
+            "ptBr": "Ficou com dúvidas? Fale com nossa equipe de",
+            "en": "Were you in doubt? Talk to our",
+            "es": "¿Tienes dudas? Habla con nuestro equipo de"
+          },
+          "TEXT_HREF_EMAIL_BODY_FOOTER": {
+            "ptBr": "Sucesso do cliente",
+            "en": "Èxito del cliente",
+            "es": "Customer success team"
+          }
+        }
+      },
+      "JOIN_TEAM": {
+        "EMAIL_TITLE": {
+          "ptBr": "Convite para entrar em uma nova turma",
+          "en": "Invitation to join a new team",
+          "es": "Invitación a formar parte de un nuevo equipo"
+        },
+        "MESSAGE_TITLE": {
+          "ptBr": "Você foi convidado para uma nova turma!",
+          "en": "You have been invited to a new team!",
+          "es": "¡Has sido invitado a una nueva equipa!"
+        },
+        "METAVERSE_BODY": {
+          "EMAIL_PURPOSE": {
+            "ptBr": "A organização {organizationName} {teamsInvited}, para aceitar o convite clique no link abaixo, ou acesse o endereço <br> {urlAva}, e na listagem de turmas clique em \"Aceitar convite\"",
+            "en": "The organization {organizationName} {teamsInvited}, to accept the invitation click on the link below, or access the address <br> {urlAva}, and in the list of classes click \"Accept invitation\"",
+            "es": "La organización {organizationName} {teamsInvited}, para aceptar la invitación haga clic en el siguiente enlace, o acceda a la dirección <br> {urlAva}, y en la lista de clases haga clic en \"Aceptar invitación\""
+          },
+          "ONE_TEAM_INVITE": {
+            "ptBr": "convidou você para a turma {teamName}",
+            "en": "invited you to the team {teasName}",
+            "es": "te invitó al equipo  {teamName}"
+          },
+          "MORE_THAN_ONE_TEAM_INVITE": {
+            "ptBr": "convidou você para as turmas {teamsNames}",
+            "en": "invited you to the teams {teamsNames}",
+            "es": "te invitó a equipos {teamsNames}"
+          },
+          "NO_TEAM": {
+            "ptBr": "convidou você",
+            "en": "invited you",
+            "es": "te invitó"
+          },
+          "BUTTON_TEXT": {
+            "ptBr": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Acessar Metaverso Educacional da Tindin</a>",
+            "en": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Access Tindin Educational Metaverse</a>",
+            "es": "<a href=\"{urlAva}\" style=\"background-color: #9cce12;border:none;color:black;padding: 20px 32px;text-decoration: none;display:inline-block;font-size: 16px;\">Entra en el metaverso educativo de Tindín</a>"
+          }
+        },
+        "EMAIL_FOOTER": {
+          "EMAIL_MESSAGE_FOOTER": {
+            "ptBr": "Ficou com dúvidas? Fale com nossa equipe de",
+            "en": "Were you in doubt? Talk to our",
+            "es": "¿Tienes dudas? Habla con nuestro equipo de"
+          },
+          "TEXT_HREF_EMAIL_BODY_FOOTER": {
+            "ptBr": "Sucesso do cliente",
+            "en": "Èxito del cliente",
+            "es": "Customer success team"
+          }
+        }
+      }
+    },
+    "RESET_PASSWORD": {
+      "EMAIL_TITLE": {
+        "ptBr": "Mudar senha",
+        "en": "Change password",
+        "es": "Cambia la contraseña"
+      },
+      "INTRO_MESSAGE": {
+        "ptBr": "Olá <strong>{userName}</strong>, você esqueceu sua senha?",
+        "en": "Hello <strong>{userName}</strong>, have you forgotten your password?",
+        "es": "Hola <strong>{userName}</strong>, ¿olvidaste tu contraseña?"
+      },
+      "MESSAGE": {
+        "ptBr": "Se deseja alterar sua senha clique no link abaixo que você será redirecionado para uma página segura para digitar uma nova senha!",
+        "en": "If you want to change your password, click on the link below and you will be redirected to a secure page to enter a new password.",
+        "es": "Si desea cambiar su contraseña, haga clic en el enlace a continuación y será redirigido a una página segura para ingresar una nueva contraseña."
+      },
+      "IGNORE_MESSAGE": {
+        "ptBr": "Se você não deseja alterar sua senha basta ignorar esse email, sua senha não será alterada, se tiver alguma dúvida sobre o processo de sua senha pode nos contactar pelo contato@tindin.com.br",
+        "en": "If you do not want to change your password just ignore this email, your password will not be changed, if you have any questions about the password process you can contact us at contato@tindin.com.br",
+        "es": "Si no desea cambiar su contraseña, simplemente ignore este correo electrónico, su contraseña no se cambiará, si tiene alguna pergunta sobre el proceso de contraseña, puede contactarnos a contato@tindin.com.br"
+      },
+      "CONFIG": {
+        "BUTTON_SET_NEW_PASS": {
+          "ptBr": "DEFINIR NOVA SENHA",
+          "en": "SET NEW PASSWORD",
+          "es": "ESTABELECER NUEVA CONTRASEÑA"
+        }
+      }
+    },
+    "ACTIVE_ACCOUNT": {
+      "EMAIL_TITLE": {
+        "ptBr": "Tindin Metaverso Educacional",
+        "en": "Tindin Educational Metaverse",
+        "es": "Tindin Metaverso Educativo"
+      },
+      "INTRO_MESSAGE": {
+        "ptBr": "Olá <strong>{userName}</strong>, seja bem vindo ao Tindin Metaverso Educacional!",
+        "en": "Hello <strong>{userName}</strong>, welcome to the Educational Tindin Metaverse!",
+        "es": "Hola <strong>{userName}</strong>, ¡bienvenido al Metaverso Educativo de Tindin!"
+      },
+      "MESSAGE": {
+        "ptBr": "Seu cadastro foi realizado com sucesso. Para ativar sua conta copie o código abaixo e informe na tela de ativar conta!",
+        "en": "Your registration was successful. To activate your account, copy the code below and enter it on the account activate screen!",
+        "es": "Su registro se realizó correctamente. Para activar su cuenta, copie el código que aparece a continuación e introdúzcalo en la pantalla de activación de la cuenta."
+      },
+      "IGNORE_MESSAGE": {
+        "ptBr": "Caso não tenha solicitado uma conta Tindin, desconsidere esse e-mail.",
+        "en": "If you did not request a Tindin account, please disregard this email.",
+        "es": "Si no solicitó una cuenta de Tindin, ignore este correo electrónico."
+      },
+      "CONFIG": {
+        "CODE_TO_ACTIVE": "{code}",
+        "ACTIVE_ACCOUNT_LINK": "{url}/confirm/{userId}",
+        "ACTIVE_ACCOUNT_TEXT": {
+          "ptBr": "Ou clique aqui para acessar a página de ativar conta",
+          "en": "Or click here to access the account activation page",
+          "es": "O haga clic aquí para acceder a la página de activación de la cuenta"
+        }
+      }
+    },
+    "DEFAULT_CONFIG": {
+      "ALT_LOGO_HEADER": {
+        "ptBr": "logo_tindin_cabecalho.png",
+        "en": "logo_tindin_header.png",
+        "es": "logo_tindin_header.png"
+      },
+      "ALT_FOOTER": {
+        "ptBr": "logoTindinTonsCinza_menor.png",
+        "en": "logoTindinGrayTones_smaller.png",
+        "es": "logoTindinTonosGrises_menor.png"
+      },
+      "SOURCE_EMAIL_TITLE_DEFAULT": {
+        "ptBr": "Metaverso Tindin <no-reply@tindin.com.br>",
+        "en": "Tindin Metaverse <no-reply@tindin.com.br>",
+        "es": "Metaverso Tindin <no-reply@tindin.com.br>"
+      },
+      "AND_SEPARATOR": {
+        "ptBr": "e",
+        "en": "and",
+        "es": "y"
+      }
+    }
+  }
+}

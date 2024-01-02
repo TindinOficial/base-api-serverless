@@ -1,0 +1,12 @@
+handler: src/handlers/apps/handler.main
+package:
+    individually: true
+events:
+  - http:
+      path: /apps
+      method: any
+      cors: true
+  - http:
+      path: /apps/{proxy+}
+      method: any
+      cors: true

@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "target": "es5",
+    "outDir": ".build",
+    "moduleResolution": "node",
+    "lib": [
+      "es2019"
+    ],
+    "rootDir": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@/handlers/*": [
+        "src/handlers/*"
+      ],
+      "@/models/*": [
+        "src/models/*"
+      ],
+      "@/types/*": [
+        "src/types/*"
+      ],
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/config": [
+        "src/config"
+      ],
+      "@/package": [
+        "package.json"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "lib/**/*"
+  ],
+  "ts-node": {
+    "require": [
+      "tsconfig-paths/register"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+handler: src/handlers/log/handler.main
+package:
+    individually: true
+events:
+  - http:
+      path: /system/logs
+      method: any
+      cors: true
+  - http:
+      path: /system/logs/{proxy+}
+      method: any
+      cors: true

@@ -1,0 +1,12 @@
+handler: src/handlers/healthCheck/handler.main
+package:
+    individually: true
+events:
+  - http:
+      path: /health-check
+      method: any
+      cors: true
+  - http:
+      path: /health-check/{proxy+}
+      method: any
+      cors: true

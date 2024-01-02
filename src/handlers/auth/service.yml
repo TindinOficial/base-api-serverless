@@ -1,0 +1,13 @@
+handler: src/handlers/auth/handler.main
+package:
+    individually: true
+timeout: 900
+events:
+  - http:
+      path: /auth
+      method: any
+      cors: true
+  - http:
+      path: /auth/{proxy+}
+      method: any
+      cors: true

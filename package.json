@@ -1,0 +1,93 @@
+{
+  "name": "api-tindin-base",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "start": "serverless offline --allowCache",
+    "audit": "npm audit --production",
+    "audit:fix": "npm audit fix --production",
+    "lint": "eslint .",
+    "tsc": "tsc",
+    "lint:fix": "eslint . --fix",
+    "lint:fixcache": "eslint . --fix --cache"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "beforeAll",
+      "test",
+      "jest",
+      "it",
+      "expect",
+      "afterAll",
+      "beforeEach",
+      "afterEach"
+    ]
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.77",
+    "@types/crypto-js": "^4.0.1",
+    "@types/jest": "^26.0.23",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/node": "^16.3.2",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk-mock": "^5.6.2",
+    "axios-mock-adapter": "^1.20.0",
+    "cache-loader": "^4.1.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "eslint": "^7.28.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "fork-ts-checker-webpack-plugin": "^6.2.13",
+    "git-commit-msg-linter": "^3.2.8",
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "jest-date": "^1.1.4",
+    "lint-staged": "^12.1.2",
+    "lite-server": "^2.6.1",
+    "lorem-ipsum": "^2.0.3",
+    "mockdate": "^3.0.5",
+    "mongodb-memory-server": "^6.9.6",
+    "serverless": "2.72.2",
+    "serverless-offline": "7.0.0",
+    "serverless-plugin-split-stacks": "1.11.3",
+    "serverless-prune-plugin": "1.6.1",
+    "serverless-webpack": "5.11.0",
+    "standard-version": "^9.3.0",
+    "ts-jest": "^27.0.3",
+    "ts-loader": "^9.2.4",
+    "ts-node": "^10.1.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "^4.3.5",
+    "webpack": "^5.80.0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lambda-router": "^2.10.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.29.4",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.5.1",
+    "mongoose-intl": "^3.3.0",
+    "nanoid": "^3.2.0",
+    "pino": "^6.12.0",
+    "pino-pretty": "^5.1.2",
+    "serverless-plugin-additional-stacks": "1.6.0",
+    "validator": "^13.7.0"
+  },
+  "license": "SEE LICENSE IN https://www.tindin.com.br/termos-de-uso",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TindinOficial/base-api-serverless"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

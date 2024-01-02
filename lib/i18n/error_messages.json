@@ -1,0 +1,59 @@
+{
+    "MESSAGES":{
+      "UPLOAD_FIELDS_REQUIRED": {
+        "ptBr": "Type e fileName são parametros obrigatórios",
+        "en": "Type and fileName are required parameters",
+        "es": "Type y fileName son parámetros obligatorios"
+      },
+      "UPLOAD_FILE_NOT_SUPPORTED": {
+        "ptBr": "Esse tipo de arquivo não é suportado",
+        "en": "This file type is not supported",
+        "es": "Este tipo de archivo no es compatible"
+      },
+      "SCHEMA_VALIDATION_ERROR": {
+        "ptBr": "O campo {fieldName} é obrigatório",
+        "en": "The field {fieldName} is required",
+        "es": "El campo {fieldName} es obligatorio"
+      },
+      "UPDATE_VALIDATION_ERROR": {
+        "ptBr": "Erro no campo {fieldName} com valor {value}",
+        "en": "Error in field {fieldName} with value {value}",
+        "es": "Error en el campo {fieldName} con valor {value}"
+      },
+      "NOT_AUTHORIZED_ERROR": {
+        "ptBr": "Ação não autorizada, contate o suporte",
+        "en": "Unauthorized action, contact support",
+        "es": "Acción no autorizada, póngase en contacto con el servicio de asistencia"
+      },
+      "DEPENDENCY_FAILED": {
+        "ptBr": "Algo deu errado, tente novamente em alguns segundos",
+        "en": "Something went wrong, try again in a few seconds",
+        "es": "Algo salió mal, inténtalo de nuevo en unos segundos"
+      },
+      "USER_NOT_SESSION_OWNER": {
+        "ptBr": "Ação autorizada apenas para o dono da sessão",
+        "en": "Action allowed only to user session owner",
+        "es": "Acción autorizada solo para el propietario de la sesión"
+      },
+      "SOMETHING_WENT_WRONG_IN_GAME": {
+        "ptBr": "Oops, algo deu errado... Tente novamente em alguns minutos ou contate o suporte",
+        "en": "Oops, something went wrong... Please try again in a few minutes or contact support",
+        "es": "Oops, algo salió mal... Vuelve a intentarlo en unos minutos o ponte en contacto con el servicio de asistencia."
+      },
+      "NOT_IMPLEMENTED": {
+        "ptBr": "Oops, este recurso não foi implementado ou ainda não está disponível, dúvida fale com suporte!",
+        "en": "Oops, something went wrong... Please try again in a few minutes or contact support",
+        "es": "Oops, algo salió mal... Vuelve a intentarlo en unos minutos o ponte en contacto con el servicio de asistencia."
+      },
+      "NOT_HAS_PARTNER": {
+        "ptBr": "Oops, seu usuário não está licenciado a nenhum parceiro de negócio, dúvida fale com suporte!",
+        "en": "Oops, your user is not licensed to any business partner, do not hesitate to contact support!",
+        "es": "Vaya, su usuario no tiene licencia para ningún socio comercial, ¡no dude en ponerse en contacto con el soporte!"
+      },
+      "INTERNAL_SERVER_ERROR": {
+        "ptBr": "Erro interno do servidor, entre em contato com o suporte",
+        "en": "Internal server error, please contact support",
+        "es": "Error interno del servidor, póngase en contacto con soporte."
+      }
+    }
+}

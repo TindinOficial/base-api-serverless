@@ -1,0 +1,54 @@
+service: api-base
+app: api-base
+
+frameworkVersion: '2'
+
+useDotenv: true
+
+package:
+  excludeDevDependencies: true
+
+custom:
+  prune:
+    automatic: true
+    number: 1
+  tscpaths:
+    tsconfigPath: tsconfig.json
+  webpack:
+    excludeDevDependencies: true
+    excludeFiles: src/**/*.test.ts
+    webpackConfig: 'webpack.config.js'
+    packager: 'npm'
+    includeModules:
+      forceExclude:
+        - mongodb-memory-server
+  splitStacks:
+       perType: true
+  region:
+    production: sa-east-1
+    staging: us-east-1
+    local: us-east-1
+
+provider:
+  stage: ${opt:stage, 'local'}
+  region: ${self:custom.region.${self:provider.stage}}
+  name: aws
+  lambdaHashingVersion: 20201221
+  runtime: nodejs14.x
+  timeout: 12
+
+  environment:
+    DATABASE_URL: ${env:DATABASE_URL}
+    NODE_ENV: ${env:stage, 'dev'}
+
+functions:
+  health-check: ${file(src/handlers/healthCheck/service.yml)} 
+  user: ${file(src/handlers/user/service.yml)}
+  auth: ${file(src/handlers/auth/service.yml)}
+  apps: ${file(src/handlers/apps/service.yml)}
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+  - serverless-plugin-split-stacks
+  - serverless-prune-plugin

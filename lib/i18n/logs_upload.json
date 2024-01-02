@@ -1,0 +1,16 @@
+{
+  "UPLOAD": {
+    "CREATE": {
+      "EVENT": {
+        "ptBr": "Upload de arquivo",
+        "en": "File Upload",
+        "es": "Carregamento de ficheiros"
+      },
+      "DETAIL": {
+        "ptBr": "Realizou um upload de arquivo",
+        "en": "Executed a file upload",
+        "es": "Cargar un archivo"
+      }
+    }
+  }
+}
