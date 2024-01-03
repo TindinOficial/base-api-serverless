@@ -215,6 +215,12 @@ const create = async (data: IClient, user: IUser) => {
 
 Neste arquivo estão todos os métodos com suas devidas lógicas para criar, alterar, editar, procurar, excluir e demais rotas necessárias para manipular clientes.
 
+Veja em vídeo: 
+
+[![Estrutura base de uma API em Serverless
+](https://img.youtube.com/vi/9UCG7mkLDiU/0.jpg)](https://www.youtube.com/watch?v=9UCG7mkLDiU)
+
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
